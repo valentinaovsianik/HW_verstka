@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            height: 100vh;
+        }
+        .nav-link {
+            font-weight: bold;
+        }
+        .nav-link.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .content-wrapper {
+            margin-left: 220px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .sidebar-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .nav-item .bi {
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card {
+            padding: 0.5rem;
+        }
+        .card-body {
+            padding: 0.75rem;
+        }
+        .btn-buy {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Боковое меню -->
+            <nav class="col-md-2 d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <div class="sidebar-header">Меню</div>
+
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="bi bi-house"></i> Главная
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-grid"></i> Категории
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-bag"></i> Заказы
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-telephone"></i> Контакты
+                            </a>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-person"></i> Профиль
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-box-arrow-right"></i> Выход
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Основной блок -->
+            <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4 content-wrapper">
+                <div class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="text-center">Каталог</h1>
+                </div>
+
+                <!-- Карточки товаров -->
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Товар 1</h5>
+                                <p class="card-text">Описание товара 1</p>
+                                <p class="card-text"</strong> $100</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Товар 2</h5>
+                                <p class="card-text">Описание товара 2</p>
+                                <p class="card-text"</strong> $100</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Товар 3</h5>
+                                <p class="card-text">Описание товара 3</p>
+                                <p class="card-text"<strong> $100</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Товар 4</h5>
+                                <p class="card-text">Описание товара 4</p>
+                                <p class="card-text"<strong> $100</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Товар 5</h5>
+                                <p class="card-text">Описание товара 5</p>
+                                <p class="card-text"</strong> $100</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Товар 6</h5>
+                                <p class="card-text">Описание товара 6</p>
+                                <p class="card-text"</strong> $100</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
